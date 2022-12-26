@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/lib/microsoft/signalr/"
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/"
+    },
+    {
+      "library": "toastr.js@latest",
+      "destination": "wwwroot/lib/toastr.js/",
+      "files": [
+        "toastr.min.js",
+        "js/toastr.min.js",
+        "js/toastr.js.map",
+        "css/toastr.min.css",
+        "css/toastr.css",
+        "toastr.css",
+        "toastr.js.map",
+        "toastr.min.css"
+      ]
+    }
+  ]
+}
