@@ -8,10 +8,6 @@
       "destination": "wwwroot/lib/microsoft/signalr/"
     },
     {
-      "library": "toastr.js@2.1.4",
-      "destination": "wwwroot/lib/toastr.js/"
-    },
-    {
       "library": "toastr.js@latest",
       "destination": "wwwroot/lib/toastr.js/",
       "files": [
@@ -25,5 +21,11 @@
         "toastr.min.css"
       ]
     }
-  ]
+  ,
+{
+  "provider": "cdnjs",
+  "library": "bootstrap-icons@1.10.2",
+  "destination": "wwwroot/lib/bootstrap-icons/"
+}
+]
 }
